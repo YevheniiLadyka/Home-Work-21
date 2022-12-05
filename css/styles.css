@@ -72,30 +72,57 @@ body {
     margin: 40px;
 }
 
-.services__card {
+.services__card, .services__card-2 {
     max-width: 370px;
     border: 1px solid #E5EAF4;
     border-radius: 8px;
+}
+
+.services__card:hover {
+    border-color: #52C29D;
+}
+
+.services__card-2:hover {
+    border-color: #007FFC;
+}
+
+.services__card:hover .blue-1 {
+    fill: #E1F4F5;
+}
+
+.services__card:hover .blue-2 {
+    fill: #F4FEFF;
+}
+
+.services__card:hover .blue-3 {
+    fill: #CAEFF2;
+}
+
+.services__card:hover .blue-4 {
+    fill: #52C29D;
 }
 
 .services__card-icon-1 {
     cursor: pointer;
 }
 
-.services__card-icon-1:hover {
-   color:  #007FFC;
-    
+
+
+.services__card-2:hover .green-1 {
+    fill: #D1E7FF;
 }
 
-.services__card-icon-2:hover {
-    color:  #52C29D;
-     
- }
+.services__card-2:hover .green-2 {
+    fill: #B9DCFF;
+}
 
- .services__card-icon-3:hover {
-    color:   #007FFC;
-     
- }
+.services__card-2:hover .green-3 {
+    fill: #E8F3FF;
+}
+
+.services__card-2:hover .green-4 {
+    fill: #007FFC;
+}
 
 
 
